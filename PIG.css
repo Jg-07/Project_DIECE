@@ -1,6 +1,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  max-width: 1280;
   box-sizing: inherit;
 }
 body{
@@ -10,4 +11,33 @@ body{
   justify-content: center;
   background: linear-gradient(to left top,#E96443,#904E95);
   max-width: 12;
+}
+.G_frame1{
+  position: absolute;
+  width: 710px;
+  height: 396px;
+  left: 285px;
+  top: 91px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
+}
+.G_frame2{
+  position: absolute;
+  display: none;
+width: 355px;
+height: 396px;
+left: 641px;
+top: 91px;
+background: rgba(239, 239, 239, 0.644);
+border-radius: 0px 10px 10px 0px;
+}
+.G_frame3{
+  position: absolute;
+  display: none;
+width: 355px;
+height: 396px;
+left: 286px;
+top: 91px;
+background: rgba(239, 239, 239, 0.644);
+border-radius: 10px 0px 0px 10px;
 }
