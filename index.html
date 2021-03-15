@@ -8,31 +8,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>PIG_Game</title>
+    <script src="PIG.js"></script>
 </head>
 
 <body>
     <div class="G_frame1">
-        <h1 class="Uname1" style="font-size: 26px;">PLAYER 1</h1>
-        <h1 class="Uname2 hidden" style="font-size: 26px;">PLAYER 2</h1>
-        <div class="G_frame3 colChanger hidden ">
+        <h1 class="Uname1 hidden" style="font-size: 26px;">PLAYER 1</h1>
+        <h1 class="Uname2" style="font-size: 26px;">PLAYER 2</h1>
+        <div class="G_frame3 colChanger">
             <h1 class="Uname1" style="font-size: 26px;">PLAYER 1</h1>
+            <div class="ScoreP1">0</div>
+            <div class="scoreLine1"><span id="player">CURRENT</span><br> <span id="score1">0</span>
+            </div>
         </div>
-        <div class="G_frame2 colChanger ">
+        <div class="G_frame2">
             <h1 class="Uname2" style="font-size: 26px;">PLAYER 2</h1>
+            <div class="ScoreP2">0</div>
+            <div class="scoreLine2"><span id="player">CURRENT</span><br> <span id="score2">0</span></div>
         </div>
         <div class="New_Button"><span
                 style="font-family: roboto;font-size: 15px;position:absolute; left:10px; top: 6px;">🔄 NEW GAME</span>
         </div>
-        <div class="scoreLine1"><span>CURRENT</span> <span>0</span></div>
-        <div class="scoreLine2"><span>CURRENT</span> <span>0</span></div>
-        <div class="DRoll"><span style="font-family: Roboto;position: absolute; left: 20px;top: 5px;font-size: 17;">
-                🎲 ROLL
-                DICE</span></div>
+        <input type="button" value=" 🎲 ROLL DICE " class="DRoll">
         <div class="DHold"><span style="font-family: Roboto;position: absolute; left: 16px;top: 4px;font-size: 17;">
                 📥 HOLD</span></div>
     </div>
     <img src="Frame 2.png" class="Dice">
+    <script src="PIG.js"></script>
 
 </body>
 
 </html>
+
+<!--<div class="DRoll"><span style="">
+        </span></div>
