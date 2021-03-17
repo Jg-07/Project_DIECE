@@ -22,10 +22,11 @@ Rules ⚙ :
 
 Concepts : 
 ---
-> HTML  
-> CSS
-> JavaScript
-
+>
+* HTML  
+* CSS
+* JavaScript
+>
 ---
 
 ### XD Enjoy the Game if you are LUCKY
