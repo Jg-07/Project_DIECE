@@ -1,9 +1,8 @@
-# Project_DIECE
+# ✨Lucky Die✨🎊
 Childhood memories of dice games. Play once to check how lucky you are. A simple multiplayer game. 
 
 ### Supportive Environment : 
 ---
-
 Laptop💻 & PC🖥
 
 ---
@@ -29,4 +28,4 @@ Concepts :
 >
 ---
 
-### XD Enjoy the Game if you are LUCKY
+### XD  🎇 Enjoy the Game  🎮👾 if you are LUCKY ✨
