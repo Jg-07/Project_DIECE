@@ -34,6 +34,11 @@ font-family: Roboto;
 .colChanger{
   color:  rgb(255, 254, 187);
   background-color: rgba(122, 122, 122, 0.6);
+  transition: 0.4s all 0s ease-out;
+}
+.winChanger{
+  color: yellow;
+  background-color: black;
 }
 .G_frame1{
   position: absolute;
@@ -56,6 +61,15 @@ top: 21px;
 z-index: 999;
 background: rgb(255, 255, 255);
 border-radius: 18px;
+border: none;
+font-family: "roboto";
+font-size: 15px;
+}
+.New_Button:focus{
+  outline: none;
+}
+.New_Button:active{
+  background-color: rgb(189, 189, 189)
 }
 .scoreLine1{
   position: absolute;
@@ -90,9 +104,6 @@ border-radius: 14px;
   margin-top: 10px ;
   margin-left: 27px;
 }
-.colChanger2{
-  color: white;
-}
 #score1{
   position: absolute;
   font-size: 30px;
@@ -126,7 +137,7 @@ border-radius: 10px 0px 0px 10px;
   z-index: 999;
   font-size: 63px;
   left: 153px;
-top: 114px;
+  top: 114px;
 }
 .ScoreP2{
   position: absolute;
@@ -135,6 +146,14 @@ top: 114px;
   font-size: 63px;
   left: 160px;
 top: 114px;
+}
+.ScoreP0{
+  position: absolute;
+  font-family: "Roboto";
+  z-index: 999;
+  font-size: 63px;
+  left: 50px;
+  top: 114px;
 }
 .DRoll{
   z-index: 999;

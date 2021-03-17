@@ -2,6 +2,7 @@
 
 var x = document.querySelector(".DRoll");
 var u = document.querySelector(".DHold");
+var n = document.querySelector(".New_Button");
 var p = 1;
 var P1 = document.querySelector(".ScoreP1");
 var P2 = document.querySelector(".ScoreP2");
@@ -23,9 +24,19 @@ function Holder() {
         h1.classList.add("hidden");
         z1.innerText = 0;
         totScore1 += curScore1;
-        P1.innerHTML = totScore1;
-        curScore1 = 0;
-        p++;
+        if (totScore1 >= 100) {
+            t1.classList.add("winChanger");
+            x.classList.add("hidden");
+            u.classList.add("hidden");
+            P1.innerHTML = "WINNER";
+            document.getElementById("SP1").classList.remove("ScoreP2");
+            document.getElementById("SP1").classList.add("ScoreP0");
+        }
+        else {
+            P1.innerHTML = totScore1;
+            curScore1 = 0;
+            p++;
+        }
     }
     else if (p == 2) {
         t1.classList.remove("colChanger");
@@ -34,9 +45,20 @@ function Holder() {
         h2.classList.add("hidden");
         z2.innerText = 0;
         totScore2 += curScore2;
-        P2.innerHTML = totScore2;
-        curScore2 = 0;
-        p--;
+
+        if (totScore2 >= 100) {
+            t2.classList.add("winChanger");
+            x.classList.add("hidden");
+            u.classList.add("hidden");
+            P2.innerHTML = "WINNER";
+            document.getElementById("SP2").classList.remove("ScoreP2");
+            document.getElementById("SP2").classList.add("ScoreP0");
+        }
+        else {
+            P2.innerHTML = totScore2;
+            curScore2 = 0;
+            p--;
+        }
     }
 }
 x.addEventListener("click", function () {
@@ -60,3 +82,6 @@ x.addEventListener("click", function () {
     }
 });
 u.addEventListener("click", Holder);
+n.addEventListener("click", function () {
+    location.reload();
+});
