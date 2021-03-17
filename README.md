@@ -22,9 +22,9 @@ Rules ⚙ :
 
 Concepts : 
 ---
->HTML  
->CSS
->JS
+> HTML  
+> CSS
+> JS
 
 ---
 
