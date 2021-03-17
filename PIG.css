@@ -160,11 +160,21 @@ top: 114px;
   z-index: 999;
   position: absolute;
   left: 305px;
- bottom: 81px;
+  bottom: 81px;
   width: 99px;
-height: 32px;
- background: rgb(255, 255, 255);
- border-radius: 18px;
+  height: 32px;
+  font-family: "Roboto";
+  position: absolute;
+  font-size: 15px;
+  background: rgb(255, 255, 255);
+  border-radius: 18px;
+  border: none;
+}
+.DHold:focus{
+  outline: none;
+}
+.DHold:active{
+  background-color: rgb(189, 189, 189);
 }
 .Dice{
   position: absolute;
