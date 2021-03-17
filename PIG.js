@@ -1,7 +1,7 @@
 //Role the dice
 
 var x = document.querySelector(".DRoll");
-
+var p = 1;
 var k = 0;
 x.addEventListener("click", function () {
     let z2 = document.getElementById("score2");
@@ -20,21 +20,21 @@ x.addEventListener("click", function () {
     //console.log(i);
     var j = i.toString();
     y.src = "Frame " + j + ".png";
-    for (let p = 1; p <= 2; p++) {
-        if (p == 1) {
-            if (k != 0) {
-                t2.classList.remove("colChanger");
-            }
-            t1.classList.add("colChanger");
-            let player1 = new player(i);
-            z1.innerText = player1.curScore;
+    if (p == 1) {
+        if (k != 0) {
+            t2.classList.remove("colChanger");
         }
-        else if (p == 2) {
-            t1.classList.remove("colChanger");
-            t2.classList.add("colChanger");
-            let player2 = new player(i);
-            z2.innerText = player2.curScore;
-        }
-        k++;
+        t1.classList.add("colChanger");
+        let player1 = new player(i);
+        z1.innerText = player1.curScore;
+        p++;
     }
+    else if (p == 2) {
+        t1.classList.remove("colChanger");
+        t2.classList.add("colChanger");
+        let player2 = new player(i);
+        z2.innerText = player2.curScore;
+        p--;
+    }
+    k++;
 });
