@@ -30,7 +30,7 @@ function Holder() {
             u.classList.add("hidden");
             P1.innerHTML = "WINNER";
             document.getElementById("SP1").classList.remove("ScoreP2");
-            document.getElementById("SP1").classList.add("ScoreP0");
+            document.getElementById("SP1").classList.add("ScorePa");
         }
         else {
             P1.innerHTML = totScore1;
@@ -52,7 +52,7 @@ function Holder() {
             u.classList.add("hidden");
             P2.innerHTML = "WINNER";
             document.getElementById("SP2").classList.remove("ScoreP2");
-            document.getElementById("SP2").classList.add("ScoreP0");
+            document.getElementById("SP2").classList.add("ScorePb");
         }
         else {
             P2.innerHTML = totScore2;

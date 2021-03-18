@@ -147,12 +147,20 @@ border-radius: 10px 0px 0px 10px;
   left: 160px;
 top: 114px;
 }
-.ScoreP0{
+.ScorePa{
   position: absolute;
   font-family: "Roboto";
   z-index: 999;
   font-size: 63px;
   left: 50px;
+  top: 114px;
+}
+.ScorePb{
+  position: absolute;
+  font-family: "Roboto";
+  z-index: 999;
+  font-size: 63px;
+  left: 70px;
   top: 114px;
 }
 .DRoll{
