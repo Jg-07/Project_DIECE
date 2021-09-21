@@ -1,5 +1,6 @@
 # ✨Lucky Die✨🎊
 Childhood memories of dice games. Play once to check how lucky you are. A simple multiplayer game. 
+👩‍💻**Please provide a star⭐ to the repo which could be a big support🙌 to many creaters🤓 like me**
 
 ### Supportive Environment : 
 ---
